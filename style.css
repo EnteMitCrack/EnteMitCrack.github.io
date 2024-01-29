@@ -1,0 +1,16 @@
+li{
+    list-style-type: none;
+    align-self: center;
+    justify-content: center;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#test {
+        background-color: blueviolet;
+}

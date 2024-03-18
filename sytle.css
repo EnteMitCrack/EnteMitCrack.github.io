@@ -164,18 +164,17 @@ body {
   border-radius: 3px;
   width: 800px;
   text-align: center;
-  overflow: hidden;
+  
+  
 }
 
 .scrollbartest::-webkit-scrollbar{
   width: 0;
 }
 
-
 .scrollbartest{
   display: block;
-  justify-content: center;
-  overflow-x: auto;
+  overflow-x: auto ;
 }
 
 /*Themenbereiche*/

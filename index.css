@@ -1,0 +1,24 @@
+/*Index*/
+
+.box {
+  color: white;
+  background-color: var(--backcolor);
+  width: 320px;
+  height: 400px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .8);
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.animation_box:hover{
+  transform: scale(1.1);
+  transition-duration: 0.75s;
+}

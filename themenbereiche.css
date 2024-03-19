@@ -1,0 +1,11 @@
+@media(min-width: calc(720px - 1px)) {
+  .bereiche{
+    display: flex;
+  }
+}
+
+.bereiche img{
+  padding: 20px;
+  height: 150px;
+  
+}

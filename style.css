@@ -18,7 +18,6 @@ body {
 .Header_mobile {
   position: relative;
   display: none;
-  justify-content: center;
   height: 70px;
   min-width: 100px;
   background-color: var(--headcolor);
@@ -33,10 +32,78 @@ body {
   min-width: 100px;
   background-color:var(--headcolor);
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, .8);
-  z-index: 999;
+
+
+}
+.test{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70px;
+  height: 100%;
+  z-index: 1001;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+}
+
+.logo{
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  min-width: 100vw;
+}
+
+/* The side navigation menu copy paste */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: var(--headcolor); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  top: 0;
+  position: absolute;
+  font-size: 36px;
   
 }
 
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 .Header_desk img {
   padding-left: 10px;
   padding-right: 10px;

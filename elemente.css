@@ -19,7 +19,6 @@
   width: 800px;
   text-align: center;
   
-  
 }
 
 .scrollbartest::-webkit-scrollbar{
@@ -29,4 +28,11 @@
 .scrollbartest{
   display: block;
   overflow-x: auto ;
+}
+
+.sometext{
+  font-size: 20px;
+  margin: 35px;
+  margin-bottom: 0px;
+  text-align: center;
 }

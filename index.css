@@ -18,7 +18,13 @@
   font-size: 20px;
 }
 
-.animation_box:hover{
+.animation_box:hover {
   transform: scale(1.1);
   transition-duration: 0.75s;
 }
+
+.text_shadow_box {
+  text-shadow: 1px 1px 1px black;
+}
+
+
